@@ -1,0 +1,26 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <iostream>
+
+int main (){
+	int nota1;
+	int nota2;
+	int nota3;
+	int nota4;
+	
+	printf("Digite a nota 1:");
+	scanf("%d", &nota1);
+	printf("Digite a nota 2:");
+	scanf("%d", &nota2);
+	printf("Digite a nota 3:");
+	scanf("%d", &nota3);
+	printf("Digite a nota 4:");
+	scanf("%d", &nota4);
+	
+	int total = nota1+nota2+nota3+nota4;
+	float media = total / 2;
+	printf("A soma das notas é: %d", total);
+	printf("A média das notas é: %f", media);
+	
+	return 0;
+}
