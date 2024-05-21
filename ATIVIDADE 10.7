@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    // Declare a variável para armazenar o peso da refeição
+    float peso;
+
+    // Peça ao usuário para inserir o peso
+    printf("Por favor, insira o peso de sua refeição em quilogramas: ");
+    scanf("%f", &peso);
+
+    // Calcule o valor a pagar
+    float valorAPagar = peso * 45.0;
+
+    // Imprima o valor a pagar
+    printf("O valor total a pagar é: R$ %.2f\n", valorAPagar);
+
+    return 0;
+}
